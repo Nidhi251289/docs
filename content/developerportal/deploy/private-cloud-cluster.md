@@ -74,7 +74,7 @@ To add a namespace, do the following:
 	
 2. Click on Add Namespace	
 	
-	![](attachments/private-cloud-cluster/namespace-details.png)
+    ![](attachments/private-cloud-cluster/namespace-details.png)
 
 3. Enter the following details:
 
