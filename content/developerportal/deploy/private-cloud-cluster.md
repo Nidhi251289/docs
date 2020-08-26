@@ -48,7 +48,7 @@ To create a cluster in your OpenShift context, you need the following:
 
 5. Click **Create Cluster**. 
 
-    ![](attachments/private-cloud-cluster/image6.png)
+    ![](attachments/private-cloud-cluster/image6.PNG)
 
 6. Enter the following information:
     
@@ -70,11 +70,11 @@ To add a namespace, do the following:
 
 1. Click **Add Details**.
 
-    ![](attachments/private-cloud-cluster/empty-cluster.png)
+    ![](attachments/private-cloud-cluster/empty-cluster.PNG)
 	
 2. Click on Add Namespace	
 	
-    ![](attachments/private-cloud-cluster/namespace-details.png)
+    ![](attachments/private-cloud-cluster/namespace-details.PNG)
 
 3. Enter the following details:
 
@@ -430,7 +430,7 @@ For Clusters level, you can see below activity logs by clicking on Actity in Clu
 * When name of the cluster is changed
 * When cluster description is changed
 
-![](attachments/private-cloud-cluster/cluster-activity-logs.png)
+![](attachments/private-cloud-cluster/cluster-activity-logs.PNG)
 
 For namespace level, you can see below activity logs
 
@@ -453,7 +453,7 @@ For namespace level, you can see below activity logs
 * When a user is removed as a namespace member
 * When user's permission is changed in the namespace
 
-![](attachments/private-cloud-cluster/namespace-activity-logs.png)
+![](attachments/private-cloud-cluster/namespace-activity-logs.PNG)
 
 {{% alert type="info" %}}
 When you add a cluster manager, the person will have all the access which a cluster manager will have such as access to existing namespaces, adding namespace, adding a member, changing the permissions of the cluster member, deleting another cluster manager.
