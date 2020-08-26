@@ -421,6 +421,10 @@ Here you can perform the following actions on the entire cluster:
 * Rename the cluster or edit its description by clicking the edit icon
 * Invite another Cluster Manager
 
+{{% alert type="info" %}}
+Please note that the added cluster manager wont be able to manage/operate on the environments created in the namespace for which they have been added as a cluster manager. They need to be added as a member of the namespace if they want to manage environments in the namespaces
+{{% /alert %}}
+
 You can also see all the activities logged and the namespace level.
 
 For Clusters level, you can see below activity logs by clicking on Actity in Cluster Overview page:
@@ -558,7 +562,7 @@ You can change the access rights for, or completely remove, existing members.
     
   2. Click **Remove member** to remove this member completely. You will be asked to confirm this action.
         
-    ![](attachments/private-cloud-cluster/image30.png)
+    ![](attachments/private-cloud-cluster/image30.PNG
 
 ### 4.4 Operate{#operate}
 
