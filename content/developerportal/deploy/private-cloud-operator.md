@@ -83,6 +83,7 @@ spec:
       memory: 256Mi
   runtime: # Configuration of the Mendix Runtime
     logAutosubscribeLevel: INFO # Default logging level
+    debuggerPassword: V2VsYzBtZSE= # base64 encoded password for debuggerPassword. In this example, 'Welc0me!';
     mxAdminPassword: V2VsYzBtZSE= # base64 encoded password for MendixAdmin user. In this example, 'Welc0me!'; can be left empty keep password unchanged
     dtapMode: P # Security & runtime mode: P for production, D for development
     logLevels: # Optional, can be omitted : set custom log levels for specific nodes
@@ -127,6 +128,7 @@ You need to make the following changes:
 * **replicas** – by default one replica will be started when you deploy your app
 * **resources** – change the minimum and maximum container resources your app requires
 * **logAutosubscribeLevel** – change the default logging level for your app, the standard level is INFO — possibilities are: `TRACE`, `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRITICAL`
+* **debuggerPassword** - here you can provide the password for the Debugger — this is optional. If you provide this, make sure you follow the [guidelines](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows-remotely)
 * **mxAdminPassword** – here you can change the password for the MxAdmin user — if you leave this empty, the password will be the one set in the Mendix model
 * **dtapmode** – for development of the app, for example acceptance testing, choose **D**, for production deployment, select **P**
 
