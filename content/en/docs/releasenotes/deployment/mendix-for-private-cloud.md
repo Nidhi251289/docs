@@ -12,6 +12,12 @@ For information on the current status of deployment to Mendix on Kubernetes and 
 
 ## 2025
 
+### August 7, 2025
+
+#### Portal Improvements
+
+* Added status label indicating [Secret storage](/developerportal/deploy/secret-store-credentials/) source in environment details page when its enabled.
+
 ### July 10, 2025
 
 #### General
