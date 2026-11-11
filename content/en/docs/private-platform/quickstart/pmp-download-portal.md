@@ -31,6 +31,8 @@ Before using the Download Portal, ensure that you have the following prerequisit
 
 To access the Download Portal, go to [https://privateplatform.mendix.com/](https://privateplatform.mendix.com/) and log in with your Mendix account.
 
+If you lack access to the Download portal, an **Access Denied** page will appear. To gain access, submit a request form with your details and the specific permissions you need. Once an administrator approves your request, the portal will become available.
+
 If your account is associated with multiple organizations, you must then select which company context to use. 
 
 ### Selecting a Company at Login
